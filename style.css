@@ -1,0 +1,48 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    margin-top: 0;
+    width: 100%;
+    font-size: 35px;
+    color: white;
+    position: fixed;
+    text-shadow: 2px 2px 7px black;
+    box-shadow: 2px 2px 7px rgb(56, 56, 56);
+}
+
+.note{
+    font-size: 20px;
+    text-shadow: none;
+    color: black;
+}
+
+b{
+    color: red;
+}
+
+.button1{
+    margin-top: 180px;
+    font-size: 20px;
+    animation-name: ani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    color: black;
+}
+
+@keyframes ani{
+    0%{background-color: lightcoral;}
+    50%{background-color: lightgoldenrodyellow;}
+    100%{background-color: lightcoral;}
+}
+
+canvas{
+    background-color: wheat;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 7px;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 90px;
+}
